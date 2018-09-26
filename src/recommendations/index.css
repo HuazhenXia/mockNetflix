@@ -1,0 +1,40 @@
+.recommendations {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.recommendations .clearfix{
+    zoom: 1;
+}
+
+.recommendations .clearfix:after{
+    content: '.';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+
+}
+
+.recommendations .row-header{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.recommendations .item {
+    float: left;
+    width: 166px;
+    height: 270px;
+    text-align: center;
+}
+
+.recommendations button{
+    border-radius: 4px;
+}
+
+.recommendations button:hover{
+    cursor: pointer;
+    background-color: #aaa;
+
+}
+

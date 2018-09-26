@@ -1,0 +1,39 @@
+.my-list {
+    color: #fff;
+}
+
+.my-list .row-header{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.my-list .item {
+    float: left;
+    width:166px;
+    height: 270px;
+    text-align: center;
+    position: relative;
+}
+
+.my-list .clearfix{
+    zoom: 1;
+}
+
+.my-list .clearfix:after{
+    content: '.';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+
+}
+
+.my-list button{
+    border-radius: 4px;
+}
+
+.my-list button:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    color: red;
+}

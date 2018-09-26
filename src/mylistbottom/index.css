@@ -1,0 +1,16 @@
+.bottom{
+    color: #fff;
+    height:30px;
+    line-height: 30px;
+    position: fixed;
+    bottom: 10px;
+}
+
+.bottom-span{
+    display: inline-block;
+    margin-right: 8px;
+    color: #aaa;
+    border: thin solid #aaa;
+    padding-left: 6px;
+    padding-right: 6px;
+}
